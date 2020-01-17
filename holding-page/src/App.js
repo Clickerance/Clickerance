@@ -30,10 +30,11 @@ function App() {
             <div className="Header" style={{paddingTop: height / 4, paddingBottom: height / 4}}>
                 <div className="text">
                     <h1 className="Heading1">Clickerance</h1>
-                    <h3 className="Heading2">Shopping</h3>
+                    <h3 className="Heading2">Next generation shopping.</h3>
                 </div>
             </div>
-            <div className="Contact" style={{paddingLeft: width / 25, paddingBottom: minorScale(10), marginRight: width/10}}>
+            <div className="Contact"
+                 style={{paddingLeft: width / 25, paddingBottom: minorScale(10), marginRight: width / 10}}>
                 <h1 className="Heading1">
                     Contact
                 </h1>
