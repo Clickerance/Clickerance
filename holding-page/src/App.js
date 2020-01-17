@@ -47,6 +47,7 @@ function App() {
                            onChange={event => {
                                setContactForm({email: event.target.value})
                            }}/>
+                <br/>
                 <Textarea placeholder="Message: " value={contactForm.message} onChange={event => {
                     setContactForm({message: event.target.value})
                 }}/>
