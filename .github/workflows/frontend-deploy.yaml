@@ -13,9 +13,9 @@ jobs:
         uses: actions/checkout@master
       - uses: actions/checkout@v2
       - name: Install Dependencies
-        run: npm install --prefix holding-page
+        run: yarn install --prefix holding-page
       - name: Build
-        run: npm run build --prefix holding-page
+        run: yarn run build --prefix holding-page
       - name: Deploy the documentation
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
