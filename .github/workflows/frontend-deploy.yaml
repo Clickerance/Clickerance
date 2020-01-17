@@ -16,7 +16,7 @@ jobs:
         run: cd holding-page && yarn install && cd ../
       - name: Build
         run: cd holding-page && yarn run build && cd ../
-      - name: Deploy the documentation
+      - name: Deploy the holding page
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
