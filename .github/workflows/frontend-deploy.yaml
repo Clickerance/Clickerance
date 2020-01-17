@@ -1,0 +1,24 @@
+name: Deploy frontend
+
+on:
+  push:
+    paths:
+      - "holding-page/**"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install --prefix holding-page
+      - name: Build
+        run: npm run build --prefix holding-page
+      - name: Deploy the documentation
+        uses: peaceiris/actions-gh-pages@v2.5.0
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./site
