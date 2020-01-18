@@ -1,6 +1,6 @@
-import React, {useState, useLayoutEffect} from 'react';
+import React, {useState, useLayoutEffect, useRef} from 'react';
 import './App.css';
-import {TextInput, minorScale, Button, Alert, Textarea} from "evergreen-ui";
+import {TextInput, minorScale, Button, Alert, Textarea, Icon} from "evergreen-ui";
 
 
 let useWindowSize = () => {
@@ -24,15 +24,21 @@ function App() {
         email: '',
         message: '',
     });
+    const contactRef = useRef(null);
     return (
         <div className="App">
             <div className="Header" style={{paddingTop: height / 4, paddingBottom: height / 4}}>
                 <div className="text">
                     <h1 className="Heading1">Clickerance</h1>
                     <h3 className="Heading2">Next generation shopping.</h3>
+                    <Button onClick={() => {
+                        contactRef.current.scrollIntoView({behavior: 'smooth'})
+                    }} appearance="minimal" marginTop={height / 8} height={minorScale(15)}>
+                        <Icon icon="chevron-down" color="#fff" size={minorScale(15)}/>
+                    </Button>
                 </div>
             </div>
-            <div className="Contact"
+            <div className="Contact" ref={contactRef}
                  style={{paddingLeft: width / 25, paddingBottom: minorScale(10), marginRight: width / 10}}>
                 <h1 className="Heading1">
                     Contact
@@ -52,7 +58,7 @@ function App() {
                     setContactForm({message: event.target.value})
                 }}/>
                 <br/>
-                <Button>Send a message!</Button>
+                <Button>Contact us!</Button>
             </div>
         </div>
     );
