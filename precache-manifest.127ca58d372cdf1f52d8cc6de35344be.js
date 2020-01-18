@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc92f983e7e0190fac9bce0cf41c22e5",
+    "revision": "91d761bc71dce743076a6e479927cae1",
     "url": "/Clickerance/index.html"
   },
   {
-    "revision": "52f40b3570f99c87b76d",
+    "revision": "589aae92b1e856ce22ea",
     "url": "/Clickerance/static/css/main.a0725123.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Clickerance/static/js/2.67343299.chunk.js.LICENSE"
   },
   {
-    "revision": "52f40b3570f99c87b76d",
-    "url": "/Clickerance/static/js/main.018a9a84.chunk.js"
+    "revision": "589aae92b1e856ce22ea",
+    "url": "/Clickerance/static/js/main.f5be2e26.chunk.js"
   },
   {
     "revision": "8b3e08d3889f31bcddb0",

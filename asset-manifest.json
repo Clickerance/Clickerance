@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Clickerance/static/css/main.a0725123.chunk.css",
-    "main.js": "/Clickerance/static/js/main.018a9a84.chunk.js",
-    "main.js.map": "/Clickerance/static/js/main.018a9a84.chunk.js.map",
+    "main.js": "/Clickerance/static/js/main.f5be2e26.chunk.js",
+    "main.js.map": "/Clickerance/static/js/main.f5be2e26.chunk.js.map",
     "runtime-main.js": "/Clickerance/static/js/runtime-main.65003e25.js",
     "runtime-main.js.map": "/Clickerance/static/js/runtime-main.65003e25.js.map",
     "static/js/2.67343299.chunk.js": "/Clickerance/static/js/2.67343299.chunk.js",
     "static/js/2.67343299.chunk.js.map": "/Clickerance/static/js/2.67343299.chunk.js.map",
     "index.html": "/Clickerance/index.html",
-    "precache-manifest.fe4c901b120840ae7cb4cd012b251476.js": "/Clickerance/precache-manifest.fe4c901b120840ae7cb4cd012b251476.js",
+    "precache-manifest.127ca58d372cdf1f52d8cc6de35344be.js": "/Clickerance/precache-manifest.127ca58d372cdf1f52d8cc6de35344be.js",
     "service-worker.js": "/Clickerance/service-worker.js",
     "static/css/main.a0725123.chunk.css.map": "/Clickerance/static/css/main.a0725123.chunk.css.map",
     "static/js/2.67343299.chunk.js.LICENSE": "/Clickerance/static/js/2.67343299.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.65003e25.js",
     "static/js/2.67343299.chunk.js",
     "static/css/main.a0725123.chunk.css",
-    "static/js/main.018a9a84.chunk.js"
+    "static/js/main.f5be2e26.chunk.js"
   ]
 }
