@@ -43,22 +43,11 @@ function App() {
                 <h1 className="Heading1">
                     Contact
                 </h1>
-                <Alert intent="danger" title="Warning.">This doesn't work yet.</Alert>
-                <br/>
-                <TextInput placeholder="Name: " value={contactForm.name} marginY={minorScale(1)} onChange={event => {
-                    setContactForm({name: event.target.value})
-                }}/>
-                <br/>
-                <TextInput type="text" value={contactForm.email} marginY={minorScale(1)} placeholder="Email: "
-                           onChange={event => {
-                               setContactForm({email: event.target.value})
-                           }}/>
-                <br/>
-                <Textarea placeholder="Message: " value={contactForm.message} onChange={event => {
-                    setContactForm({message: event.target.value})
-                }}/>
-                <br/>
-                <Button>Contact us!</Button>
+                <p>Please email <code style={{display: 'inline'}}>{"santiago"}</code>.<code
+                    style={{display: 'inline'}}>{"schmitt"}</code>@<code
+                    style={{display: 'inline'}}>{"btopenworld"}</code>.<code
+                    style={{display: 'inline'}}>{"com"}</code> for more information.
+                </p>
             </div>
         </div>
     );
