@@ -43,7 +43,7 @@ function App() {
                 <h1 className="Heading1">
                     Contact
                 </h1>
-                <Alert intent="warning" title="Warning.">This doesn't work yet.</Alert>
+                <Alert intent="danger" title="Warning.">This doesn't work yet.</Alert>
                 <br/>
                 <TextInput placeholder="Name: " value={contactForm.name} marginY={minorScale(1)} onChange={event => {
                     setContactForm({name: event.target.value})
