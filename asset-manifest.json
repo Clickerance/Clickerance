@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Clickerance/static/css/main.a0725123.chunk.css",
-    "main.js": "/Clickerance/static/js/main.349c5803.chunk.js",
-    "main.js.map": "/Clickerance/static/js/main.349c5803.chunk.js.map",
+    "main.js": "/Clickerance/static/js/main.d6dbf419.chunk.js",
+    "main.js.map": "/Clickerance/static/js/main.d6dbf419.chunk.js.map",
     "runtime-main.js": "/Clickerance/static/js/runtime-main.65003e25.js",
     "runtime-main.js.map": "/Clickerance/static/js/runtime-main.65003e25.js.map",
-    "static/js/2.67343299.chunk.js": "/Clickerance/static/js/2.67343299.chunk.js",
-    "static/js/2.67343299.chunk.js.map": "/Clickerance/static/js/2.67343299.chunk.js.map",
+    "static/js/2.b0af0613.chunk.js": "/Clickerance/static/js/2.b0af0613.chunk.js",
+    "static/js/2.b0af0613.chunk.js.map": "/Clickerance/static/js/2.b0af0613.chunk.js.map",
     "index.html": "/Clickerance/index.html",
-    "precache-manifest.8a51b802ae6c9e9812c925fea748e69e.js": "/Clickerance/precache-manifest.8a51b802ae6c9e9812c925fea748e69e.js",
+    "precache-manifest.083b006362e85704f423adf09d8fa645.js": "/Clickerance/precache-manifest.083b006362e85704f423adf09d8fa645.js",
     "service-worker.js": "/Clickerance/service-worker.js",
     "static/css/main.a0725123.chunk.css.map": "/Clickerance/static/css/main.a0725123.chunk.css.map",
-    "static/js/2.67343299.chunk.js.LICENSE": "/Clickerance/static/js/2.67343299.chunk.js.LICENSE"
+    "static/js/2.b0af0613.chunk.js.LICENSE": "/Clickerance/static/js/2.b0af0613.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.65003e25.js",
-    "static/js/2.67343299.chunk.js",
+    "static/js/2.b0af0613.chunk.js",
     "static/css/main.a0725123.chunk.css",
-    "static/js/main.349c5803.chunk.js"
+    "static/js/main.d6dbf419.chunk.js"
   ]
 }
