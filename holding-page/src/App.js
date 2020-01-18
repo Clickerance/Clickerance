@@ -1,5 +1,4 @@
 import React, {useState, useLayoutEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {TextInput, minorScale, Button, Alert, Textarea} from "evergreen-ui";
 
@@ -24,7 +23,7 @@ function App() {
         name: '',
         email: '',
         message: '',
-    })
+    });
     return (
         <div className="App">
             <div className="Header" style={{paddingTop: height / 4, paddingBottom: height / 4}}>
@@ -39,6 +38,7 @@ function App() {
                     Contact
                 </h1>
                 <Alert intent="warning" title="Warning.">This doesn't work yet.</Alert>
+                <br/>
                 <TextInput placeholder="Name: " value={contactForm.name} marginY={minorScale(1)} onChange={event => {
                     setContactForm({name: event.target.value})
                 }}/>
