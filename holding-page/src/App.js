@@ -47,9 +47,9 @@ function App() {
                             <h1 className="Heading1">
                                 Contact
                             </h1>
-                            <p>To get in touch please email <code style={{display: 'inline'}}>{"santiago"}</code>.<code
-                                style={{display: 'inline'}}>{"schmitt"}</code>@<code
-                                style={{display: 'inline'}}>{"btopenworld"}</code>.<code
+                            <p>To get in touch please email <code
+                                style={{display: 'inline'}}>{"santiago"}</code>@<code
+                                style={{display: 'inline'}}>{"clickerance"}</code>.<code
                                 style={{display: 'inline'}}>{"com"}</code>.
                             </p>
                         </div>
