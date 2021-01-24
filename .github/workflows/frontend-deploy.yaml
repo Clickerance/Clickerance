@@ -15,7 +15,7 @@ jobs:
       - name: Install Dependencies
         run: cd holding-page && yarn install && cd ../
       - name: Build
-        run: CI=false cd holding-page && yarn run build && cd ../
+        run: cd holding-page && CI=false yarn run build && cd ../
       - name: Deploy the holding page
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
