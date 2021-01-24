@@ -59,7 +59,6 @@ function App() {
                     <div className="Header" style={{paddingTop: height / 4, paddingBottom: height / 4}}>
                         <div className="text">
                             <h1 className="Heading1">Error 404. Page not found.</h1>
-
                         </div>
                     </div>
                 </Route>
