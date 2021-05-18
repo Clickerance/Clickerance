@@ -34,7 +34,7 @@ function App() {
                         <div className="Header" style={{paddingTop: height / 4, paddingBottom: height / 4}}>
                             <div className="text">
                                 <h1 className="Heading1">Clickerance</h1>
-                                <h3 className="Heading2">Next generation shopping.</h3>
+                                <h3 className="Heading2">Shopping with food preferences and intolerances just got easy!</h3>
                                 <Button onClick={() => {
                                     contactRef.current.scrollIntoView({behavior: 'smooth'})
                                 }} appearance="minimal" marginTop={height / 8} height={minorScale(15)}>
